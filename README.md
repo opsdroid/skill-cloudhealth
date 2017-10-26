@@ -1,10 +1,10 @@
 # opsdroid skill cloudhealth
 
-A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to interact with cloudhealth.
+A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to interact with [CloudHealth](https://www.cloudhealthtech.com/).
 
 ## Requirements
 
-None.
+A CloudHealth account.
 
 ## Configuration
 
