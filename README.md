@@ -1,6 +1,6 @@
-# opsdroid skill hello
+# opsdroid skill cloudhealth
 
-A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to respond to hello and goodbye messages.
+A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to interact with cloudhealth.
 
 ## Requirements
 
@@ -9,24 +9,23 @@ None.
 ## Configuration
 
 None.
+```yaml
+skills:
+  - name: aws-billing
+    room: "#monitoring"  # (Optional) room to send alert to
+    chapi-key: ABCDEF123456789  # Cloud Health API key for billing alerts
+    daily-billing-alerts: true
+    monthly-billing-alerts: true
 
 ## Usage
 
-#### `hello`
+#### `how much was our AWS bill yesterday?`
 
-Says hello to the user.
+Checks how much your AWS bill was yesterday.
 
-> user: hello
+> user: how much was our AWS bill yesterday?
 >
-> opsdroid: Hi user
-
-#### `goodbye`
-
-Says goodbye to the user.
-
-> user: bye
->
-> opsdroid: Bye user
+> opsdroid: Yesterday we spent £57.89 on AWS.
 
 ## License
 
