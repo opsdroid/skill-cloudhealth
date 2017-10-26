@@ -4,7 +4,7 @@ A skill for [opsdroid](https://github.com/opsdroid/opsdroid) to interact with [C
 
 ## Requirements
 
-A CloudHealth account.
+A CloudHealth account and an [api key](https://github.com/CloudHealth/cht_api_guide#getting-an-api-key).
 
 ## Configuration
 
