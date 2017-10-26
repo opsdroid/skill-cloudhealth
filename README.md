@@ -16,6 +16,7 @@ skills:
     chapi-key: ABCDEF123456789  # Cloud Health API key for billing alerts
     daily-billing-alerts: true
     monthly-billing-alerts: true
+```
 
 ## Usage
 
