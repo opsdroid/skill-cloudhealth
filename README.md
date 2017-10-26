@@ -12,10 +12,12 @@ None.
 ```yaml
 skills:
   - name: aws-billing
-    room: "#monitoring"  # (Optional) room to send alert to
+    # Required
     chapi-key: ABCDEF123456789  # Cloud Health API key for billing alerts
-    daily-billing-alerts: true
-    monthly-billing-alerts: true
+    # Optional
+    room: "#monitoring"  # Room to send alert to
+    daily-billing-alerts: true  # Announce the previous day's bill each morning
+    monthly-billing-alerts: true  # Announce the previous month's bill each month
 ```
 
 ## Usage
