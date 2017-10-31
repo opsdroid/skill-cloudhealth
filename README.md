@@ -29,7 +29,3 @@ Checks how much your AWS bill was yesterday.
 > user: how much was our AWS bill yesterday?
 >
 > opsdroid: Yesterday we spent £57.89 on AWS.
-
-## License
-
-GNU General Public License Version 3 (GPLv3)
