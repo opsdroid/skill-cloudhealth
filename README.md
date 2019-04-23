@@ -11,7 +11,7 @@ A CloudHealth account and an [api key](https://github.com/CloudHealth/cht_api_gu
 None.
 ```yaml
 skills:
-  - name: aws-billing
+  - name: cloudhealth
     # Required
     chapi-key: ABCDEF123456789  # Cloud Health API key for billing alerts
     # Optional
